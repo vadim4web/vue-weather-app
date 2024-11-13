@@ -1,13 +1,15 @@
 <template>
   <div class="wrapper">
+    <img src="bg.jpg" alt="Background">
     <header>
       <div id="header">
-        <h1>Weather app</h1>
+        <h1>
+          Weather app</h1>
       </div>
       <DataTable />
     </header>
     <footer>
-      <h3>(&ccaron;) {{ new Date().getFullYear() }} Bogdanov (<a href="http://8ogdanovv.github.io">8ogdanovv</a>) Vadim specially for FrontCo · Ukraine</h3>
+      <h3>(&ccaron;) {{ new Date().getFullYear() }} Vadim (<a href="http://1abcdesign.github.io">1abcdesign</a>) Chervoniak-Bogdanov specially for FrontCo · Ukraine</h3>
     </footer>
   </div>
 </template>
@@ -55,22 +57,26 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url('./assets/bg.jpg');
 }
 
 body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  background: rgb(22, 27, 34);
-  background-image: url('./assets/bg.jpg');
+  height: 100vh;
   color: rgb(240, 246, 252);
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
 }
 
 @media (orientation: landscape) {
-  body {
-    background-size: cover;
+  img {
+    object-fit: cover;
   }
 
   footer {
@@ -84,8 +90,8 @@ body {
 }
 
 @media (orientation: portrait) {
-  body {
-    background-size: contain;
+  img {
+    object-fit: contain;
   }
 
   footer {
