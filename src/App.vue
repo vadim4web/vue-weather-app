@@ -69,10 +69,10 @@ h1::after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   top: 0;
-  left: 50%;
+  left: 0;
   background: -webkit-linear-gradient(90deg, gold, navy);
   z-index: -1;
-  transform: translateX(-50%);
+  width: 100%;
 }
 
 body {

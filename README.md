@@ -1,6 +1,6 @@
 # Vue.js Weather App
 
-[![Screenshot](https://github.com/1abcdesign/vue-weather-app/blob/main/screenshot.png)](https://1abcdesign.github.io/vue-weather-app/)
+[![Screenshot](https://github.com/1abcdesign/vue-weather-app/blob/main/screen.png)](https://1abcdesign.github.io/vue-weather-app/)
 
 ## Description:
 The Vue.js Weather App is a simple web application that allows users to view weather information for different cities. It provides real-time weather data, including minimum and maximum temperatures, for selected locations.
