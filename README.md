@@ -1,6 +1,6 @@
 # Vue.js Weather App
 
-[![Screenshot](https://github.com/vadym4che/weather-app/blob/main/screenshot.png)](https://vadym4che.github.io/weather-app/)
+[![Screenshot](https://github.com/1abcdesign/weather-app/blob/main/screenshot.png)](https://1abcdesign.github.io/weather-app/)
 
 ## Description:
 The Vue.js Weather App is a simple web application that allows users to view weather information for different cities. It provides real-time weather data, including minimum and maximum temperatures, for selected locations.
@@ -20,7 +20,7 @@ You can try the Weather App live at Demo Link.
 To run the Weather App locally, follow these steps:
 1. Clone this repository to your local machine:
 ```shell
-git clone https://github.com/vadym4che/weather-app.git
+git clone https://github.com/1abcdesign/weather-app.git
 ```
 2. Navigate to the project directory:
 ```shell
@@ -42,7 +42,7 @@ npm run serve
 - Click the "+" button to add a new city to the list. Enter the city name, latitude, and longitude.
 
 ## Author:
-(&ccaron;) Vadym Chervoniak (GitHub: vadym4che)
+(&ccaron;) Vadym Chervoniak-Bogdanov (GitHub: 1abcdesign)
 
 ## License:
 This project is licensed under the MIT License.
