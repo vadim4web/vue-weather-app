@@ -253,7 +253,7 @@ td span {
     border-radius: 0.25rem;
 }
 
-.mirrorVertSpan {
+.normalVertSpan {
     display: block;
     -moz-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
@@ -262,7 +262,7 @@ td span {
     transform: scale(1, -1);
 }
 
-.normalVertSpan {
+.mirrorVertSpan {
     display: block;
     -moz-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);

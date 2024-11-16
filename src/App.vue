@@ -3,13 +3,15 @@
     <img src="bg.jpg" alt="Background">
     <header>
       <div id="header">
-        <h1>
-          Weather app</h1>
+        <h1 style="background: url('./bg.jpg'); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+          <!-- <img src="bg.jpg" alt="Background" class="header-bg"> -->
+          Weather app
+        </h1>
       </div>
       <DataTable />
     </header>
     <footer>
-      <h3>(&ccaron;) {{ new Date().getFullYear() }} Vadim (<a href="http://1abcdesign.github.io">1abcdesign</a>) Chervoniak-Bogdanov specially for FrontCo · Ukraine</h3>
+      <h3>(&ccaron;) {{ new Date().getFullYear() }} Vadim (<a href="http://1abcdesign.github.io">1abcdesign</a>) Chervoniak-Bogdanov</h3>
     </footer>
   </div>
 </template>
@@ -31,10 +33,6 @@ html {
   font-size: 3vh;
 }
 
-#header {
-  background-color: white;
-}
-
 footer {
   width: 100%;
   background-color: rgb(128, 128, 128, 0.5);
@@ -53,10 +51,28 @@ h3 {
 
 h1 {
   font-size: 3rem;
-  background: -webkit-linear-gradient(315deg, rgb(253, 223, 38), #647eff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1::after {
+  position: absolute;
+  content: 'Weather app';
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  top: 0;
+  left: 50%;
+  background: -webkit-linear-gradient(90deg, gold, navy);
+  z-index: -1;
+  transform: translateX(-50%);
 }
 
 body {
