@@ -1,6 +1,11 @@
 export default {
     geo: [
         {
+            city: 'Kyiv',
+            lat: 50.45,
+            lon: 30.52
+        },
+        {
             city: 'Berlin',
             lat: 52.52,
             lon: 13.41,
@@ -15,10 +20,6 @@ export default {
             lat: 51.51,
             lon: -0.13,
         },
-        // Kyiv: {
-        //     lat: 50.45,
-        //     lon: 30.52
-        // },
         {
             city: 'Washington',
             lat: 38.90,
@@ -27,14 +28,9 @@ export default {
     ],
     add: [
         {
-            city: 'Tokyo',
-            lat: 35.69,
-            lon: 139.69,
-        },
-        {
-            city: 'Ottawa',
-            lat: 45.41,
-            lon: -75.70,
+            city: 'Copenhagen',
+            lat: 55.68,
+            lon: 12.57,
         },
         {
             city: 'Oslo',
@@ -42,10 +38,14 @@ export default {
             lon: 10.75,
         },
         {
-            city: 'Copenhagen',
-            lat: 55.68,
-            lon: 12.57,
+            city: 'Ottawa',
+            lat: 45.41,
+            lon: -75.70,
         },
-
+        {
+            city: 'Tokyo',
+            lat: 35.69,
+            lon: 139.69,
+        },
     ],
 }

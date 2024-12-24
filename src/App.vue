@@ -1,31 +1,41 @@
 <template>
   <div class="wrapper">
-    <img src="bg.jpg" alt="Background">
+    <img src="bg.jpg" alt="Background" />
     <header>
       <div id="header">
-        <h1 style="background: url('./bg.jpg'); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-          <!-- <img src="bg.jpg" alt="Background" class="header-bg"> -->
+        <h1
+          style="
+            background: url('./bg.jpg');
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          "
+        >
           Weather app
         </h1>
       </div>
       <DataTable />
     </header>
     <footer>
-      <h3>(&ccaron;) {{ new Date().getFullYear() }} Vadim (<a href="http://1abcdesign.github.io">1abcdesign</a>) Chervoniak-Bogdanov</h3>
+      <h3>
+        (&ccaron;) 2022 - {{ new Date().getFullYear() }} Vadim (<a
+          href="http://vadim4web.github.io"
+          >vadim4web</a
+        >) Chervoniak
+      </h3>
     </footer>
   </div>
 </template>
 
 <script>
-
-import DataTable from '@/components/DataTable.vue'
+import DataTable from "@/components/DataTable.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    DataTable
-  }
-}
+    DataTable,
+  },
+};
 </script>
 
 <style>
@@ -60,10 +70,9 @@ h1 {
   justify-content: center;
 }
 
-
 h1::after {
   position: absolute;
-  content: 'Weather app';
+  content: "Weather app";
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
