@@ -18,7 +18,7 @@
     </header>
     <footer>
       <h3>
-        (&ccaron;) 2022 - {{ new Date().getFullYear() }} Vadim (<a
+        &copy; 2022 - {{ new Date().getFullYear() + 1 }} Vadim (<a
           href="http://vadim4web.github.io"
           >vadim4web</a
         >) Chervoniak

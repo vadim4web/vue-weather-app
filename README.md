@@ -42,7 +42,7 @@ npm run serve
 - Click the "+" button to add a new city to the list. Enter the city name, latitude, and longitude.
 
 ## Author:
-(&ccaron;) Vadym Chervoniak-Bogdanov (GitHub: vadim4web)
+Vadim Chervoniak (GitHub: vadim4web)
 
 ## License:
 This project is licensed under the MIT License.
