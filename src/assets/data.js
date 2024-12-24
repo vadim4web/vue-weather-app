@@ -1,24 +1,24 @@
 export default {
     geo: [
         {
-            city: 'Kyiv',
-            lat: 50.45,
-            lon: 30.52
-        },
-        {
             city: 'Berlin',
             lat: 52.52,
             lon: 13.41,
         },
         {
-            city: 'Paris',
-            lat: 48.85,
-            lon: 2.35,
+            city: 'Kyiv',
+            lat: 50.45,
+            lon: 30.52
         },
         {
             city: 'London',
             lat: 51.51,
             lon: -0.13,
+        },
+        {
+            city: 'Paris',
+            lat: 48.85,
+            lon: 2.35,
         },
         {
             city: 'Washington',
