@@ -149,6 +149,5 @@ img {
   align-items: center;
   text-align: center;
   height: 100%;
-  margin: 1rem 0;
 }
 </style>
